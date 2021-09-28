@@ -1,1 +1,1 @@
-# utel-class16-example
+Lectura desde Firebase
