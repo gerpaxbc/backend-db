@@ -1,7 +1,6 @@
 const admin = require('firebase-admin')
 
-const serviceAccount = (
-  {
+const serviceAccount = ({
     "type": process.env.TYPE,
     "project_id": process.env.PROJECT_ID,
     "private_key_id": process.env.PRIVATE_KEY_ID,
@@ -12,8 +11,7 @@ const serviceAccount = (
     "token_uri": process.env.TOKEN_URI,
     "auth_provider_x509_cert_url": process.env.AUTH_PROVIDER,
     "client_x509_cert_url": process.env.CLIENT_X509
-}
-)
+})
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
