@@ -8,6 +8,7 @@
     "firebase": "^9.0.2",
     "firebase-admin": "^9.11.1",
     "mdbootstrap": "^4.20.0",
+    "netlify-cli": "^6.9.27",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
