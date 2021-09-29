@@ -17,6 +17,4 @@ app.get('/', (req, res) => {
 app.listen(5000, () => {
   console.log(`El servidor está corriendo en el puerto: ${PORT}`)
 })
-// app.listen(5000, function () {
-//   console.log(`El servidor está corriendo en el puerto: ${PORT}`)
-// })
+
